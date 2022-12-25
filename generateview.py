@@ -49,7 +49,7 @@ def open_browser(soundcloud_link, proxy_list, optionheadless):
             browser = webdriver.Chrome(chrome_options=options)
             browser.get(soundcloud_link)
 
-            time.sleep(6)
+            time.sleep(4)
             xpath_clickers(browser)
             
         except Exception as e:
