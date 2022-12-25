@@ -40,7 +40,7 @@ def open_browser(soundcloud_link, proxy_list, optionheadless):
 
             # Set up the ChromeOptions object with the proxy
             options = webdriver.ChromeOptions()
-            #options.add_argument('--proxy-server={}'.format(proxy))
+            options.add_argument('--proxy-server={}'.format(proxy))
             #options.add_argument("user-agent=" + generate_random_user_agent())
             options.headless = optionheadless
             options.add_experimental_option("excludeSwitches", ["enable-logging"])
