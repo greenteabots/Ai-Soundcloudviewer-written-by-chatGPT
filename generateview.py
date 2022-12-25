@@ -32,7 +32,7 @@ def open_browser(soundcloud_link, proxy_list, optionheadless):
     # Read the list of proxies from the text file
     with open(proxy_list, 'r') as f:
         proxies = f.readlines()
-
+ 
     while True:
         try:
             # Choose a random proxy from the list
