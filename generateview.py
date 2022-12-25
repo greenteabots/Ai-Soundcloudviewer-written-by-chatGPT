@@ -13,7 +13,6 @@ from fake_useragent import UserAgent
 #get soundcloud link from user input
 soundcloud_link = input("Please enter the soundcloud link:")
 proxylist = input("Please enter the name of the proxy list text file: ")
-soundcloud_link = "https://soundcloud.com/iamt0nic/id-iamt0nic-second-release"
 optionheadless = input("Do you want to run chrome headless? true/false: ")
 #threadscount = input("How many threads do you want to run? ")
 
